@@ -57,14 +57,14 @@ function leftTime() {
     if (leftDays<0){
         alert("Please enter a valid date and time")
         isTrue = false
-        beforeSec.innerText= '00'
-        afterSec.innerText = '00'
-        beforeMin.innerText = '00'
-        afterMin.innerText = '00'
-        beforeHour.innerText= '00'
-        afterHour.innerText = '00'
-        beforeDay.innerText = '00'
-        afterDay.innerText = '00'
+        beforeSec.innerText= '41'
+        afterSec.innerText = '41'
+        beforeMin.innerText = '55'
+        afterMin.innerText = '55'
+        beforeHour.innerText= '23'
+        afterHour.innerText = '23'
+        beforeDay.innerText = '08'
+        afterDay.innerText = '08'
     }
     else if (leftDays == 0 && leftHours == 0 && leftMinutes == 0 & leftSeconds == 0) {
         topSecond.innerText = '0' + leftSeconds
