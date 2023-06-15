@@ -12,7 +12,6 @@ body{
     height: 100vh;
     font-family: 'Red Hat Text', sans-serif;
     background: linear-gradient(hsl(236, 21%, 26%), hsl(235, 16%, 14%));
-    /* overflow: hidden; */
 }
 
 .container{
@@ -94,7 +93,6 @@ body{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     top: 0;
-    /* animation: flip-top 1000ms ease-in; */
     transform-origin: bottom;
     overflow: hidden;
 }
@@ -105,7 +103,6 @@ body{
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     bottom: 0;
-    /* animation: flip-bottom 1000ms ease-out 0.5s; */
     transform-origin: top;
 }
 
