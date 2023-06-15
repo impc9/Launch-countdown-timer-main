@@ -1,6 +1,6 @@
 let stopAudio = new Audio('stop_requested.mp3')
 
-let placeHolder = "june 15, 2023 16:32:15"
+let placeHolder = "june 15, 2026 16:32:15"
 let targetDateFromUser = new Date(prompt(`Please enter date and time! eg.- " ${placeHolder} "`))
 // console.log(targetDateFromUser)
 let topSecond = document.getElementById("topSecond")
